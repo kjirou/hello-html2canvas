@@ -5,7 +5,11 @@
   "content_scripts": [
     {
       "matches": ["http://*/*", "https://*/*"],
-      "js": ["html2canvas-dist/html2canvas.min.js", "content_script.js"]
+      "js": [
+        "html2canvas-dist/html2canvas.min.js",
+        "fabric-dist/fabric.min.js",
+        "content_script.js"
+      ]
     }
   ]
 }
