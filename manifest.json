@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "hello-html2canvas",
+  "version": "0.0.0",
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["html2canvas-dist/html2canvas.min.js", "content_script.js"]
+    }
+  ]
+}
