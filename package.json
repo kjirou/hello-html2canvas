@@ -16,5 +16,8 @@
     "url": "https://github.com/kjirou/hello-html2canvas/issues"
   },
   "homepage": "https://github.com/kjirou/hello-html2canvas#readme",
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "html2canvas": "^1.1.2"
+  }
 }
